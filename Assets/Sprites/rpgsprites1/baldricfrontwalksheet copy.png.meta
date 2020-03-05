@@ -1,0 +1,1684 @@
+fileFormatVersion: 2
+guid: 6203805d5b92a8049b4622ed015cb6a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2052431726481276142
+    second: baldricfrontwalksheet copy_0
+  - first:
+      213: -3090692638585549993
+    second: baldricfrontwalksheet copy_1
+  - first:
+      213: -2748129189736969666
+    second: baldricfrontwalksheet copy_2
+  - first:
+      213: -1499130596144497163
+    second: baldricfrontwalksheet copy_3
+  - first:
+      213: 2159413236354789827
+    second: baldricfrontwalksheet copy_4
+  - first:
+      213: 4169945140939308764
+    second: baldricfrontwalksheet copy_5
+  - first:
+      213: -8961355863282979403
+    second: baldricfrontwalksheet copy_6
+  - first:
+      213: -7163215637310565132
+    second: baldricfrontwalksheet copy_7
+  - first:
+      213: -661963077263761035
+    second: baldricfrontwalksheet copy_8
+  - first:
+      213: 3330421246626613734
+    second: baldricfrontwalksheet copy_9
+  - first:
+      213: 946719141549838623
+    second: baldricfrontwalksheet copy_10
+  - first:
+      213: 4832551021343312934
+    second: baldricfrontwalksheet copy_11
+  - first:
+      213: 3808045535579588690
+    second: baldricfrontwalksheet copy_12
+  - first:
+      213: 1862063397081042514
+    second: baldricfrontwalksheet copy_13
+  - first:
+      213: 1405649437160449272
+    second: baldricfrontwalksheet copy_14
+  - first:
+      213: 6940801900377978970
+    second: baldricfrontwalksheet copy_15
+  - first:
+      213: 4851254636803412192
+    second: baldricfrontwalksheet copy_16
+  - first:
+      213: -4021261642883145848
+    second: baldricfrontwalksheet copy_17
+  - first:
+      213: 4197864560447741061
+    second: baldricfrontwalksheet copy_18
+  - first:
+      213: -7985851070333483904
+    second: baldricfrontwalksheet copy_19
+  - first:
+      213: 7336897245104598810
+    second: baldricfrontwalksheet copy_20
+  - first:
+      213: 7130663292845236979
+    second: baldricfrontwalksheet copy_21
+  - first:
+      213: 5050045580902342887
+    second: baldricfrontwalksheet copy_22
+  - first:
+      213: 5179954182140195336
+    second: baldricfrontwalksheet copy_23
+  - first:
+      213: -7315604807881736482
+    second: baldricfrontwalksheet copy_24
+  - first:
+      213: -4152894151342043641
+    second: baldricfrontwalksheet copy_25
+  - first:
+      213: 741959240412995591
+    second: baldricfrontwalksheet copy_26
+  - first:
+      213: 5367673639504692056
+    second: baldricfrontwalksheet copy_27
+  - first:
+      213: -8361194711098568817
+    second: baldricfrontwalksheet copy_28
+  - first:
+      213: 5524116885467534763
+    second: baldricfrontwalksheet copy_29
+  - first:
+      213: 6498032292341435702
+    second: baldricfrontwalksheet copy_30
+  - first:
+      213: -262564405591897350
+    second: baldricfrontwalksheet copy_31
+  - first:
+      213: -270210287800301078
+    second: baldricfrontwalksheet copy_32
+  - first:
+      213: -8538513463781205432
+    second: baldricfrontwalksheet copy_33
+  - first:
+      213: 2065367245653089928
+    second: baldricfrontwalksheet copy_34
+  - first:
+      213: -6251913712027637737
+    second: baldricfrontwalksheet copy_35
+  - first:
+      213: -3522673168000051025
+    second: baldricfrontwalksheet copy_36
+  - first:
+      213: -3559862452987968269
+    second: baldricfrontwalksheet copy_37
+  - first:
+      213: 7226278321744613072
+    second: baldricfrontwalksheet copy_38
+  - first:
+      213: -698518215817871663
+    second: baldricfrontwalksheet copy_39
+  - first:
+      213: -2727331065663059427
+    second: baldricfrontwalksheet copy_40
+  - first:
+      213: 6493292183821560836
+    second: baldricfrontwalksheet copy_41
+  - first:
+      213: -3726978196552487300
+    second: baldricfrontwalksheet copy_42
+  - first:
+      213: 5761595900264266588
+    second: baldricfrontwalksheet copy_43
+  - first:
+      213: 2139902818133851207
+    second: baldricfrontwalksheet copy_44
+  - first:
+      213: 546940320270648118
+    second: baldricfrontwalksheet copy_45
+  - first:
+      213: 4059822581425013773
+    second: baldricfrontwalksheet copy_46
+  - first:
+      213: 9014952849938557869
+    second: baldricfrontwalksheet copy_47
+  - first:
+      213: 1630501145001753743
+    second: baldricfrontwalksheet copy_48
+  - first:
+      213: -2174470800556826465
+    second: baldricfrontwalksheet copy_49
+  - first:
+      213: 6213670065324629548
+    second: baldricfrontwalksheet copy_50
+  - first:
+      213: -5304887157433467492
+    second: baldricfrontwalksheet copy_51
+  - first:
+      213: -1796743267653221525
+    second: baldricfrontwalksheet copy_52
+  - first:
+      213: 8196850911518286776
+    second: baldricfrontwalksheet copy_53
+  - first:
+      213: 7052218121215663856
+    second: baldricfrontwalksheet copy_54
+  - first:
+      213: 5056885589292383409
+    second: baldricfrontwalksheet copy_55
+  - first:
+      213: 6923999516516720812
+    second: baldricfrontwalksheet copy_56
+  - first:
+      213: -3786644174879643475
+    second: baldricfrontwalksheet copy_57
+  - first:
+      213: -6114596701152282552
+    second: baldricfrontwalksheet copy_58
+  - first:
+      213: -519912247387550701
+    second: baldricfrontwalksheet copy_59
+  - first:
+      213: 3799862199645151872
+    second: baldricfrontwalksheet copy_60
+  - first:
+      213: -3270037790504523121
+    second: baldricfrontwalksheet copy_61
+  - first:
+      213: 5359685879081152623
+    second: baldricfrontwalksheet copy_62
+  - first:
+      213: 2867104573539561863
+    second: baldricfrontwalksheet copy_63
+  - first:
+      213: -6341653165427335849
+    second: baldricfrontwalksheet copy_64
+  - first:
+      213: -3578069002204124707
+    second: baldricfrontwalksheet copy_65
+  - first:
+      213: -2620246517267059741
+    second: baldricfrontwalksheet copy_66
+  - first:
+      213: 2917141824950889621
+    second: baldricfrontwalksheet copy_67
+  - first:
+      213: -4177321854996356974
+    second: baldricfrontwalksheet copy_68
+  - first:
+      213: -7072244181953941233
+    second: baldricfrontwalksheet copy_69
+  - first:
+      213: -3298990856192774701
+    second: baldricfrontwalksheet copy_70
+  - first:
+      213: -473258296327026169
+    second: baldricfrontwalksheet copy_71
+  - first:
+      213: 3032541180715437849
+    second: baldricfrontwalksheet copy_72
+  - first:
+      213: 7454027978435486376
+    second: baldricfrontwalksheet copy_73
+  - first:
+      213: -3885412958744854824
+    second: baldricfrontwalksheet copy_74
+  - first:
+      213: 7886925959526190485
+    second: baldricfrontwalksheet copy_75
+  - first:
+      213: 1634484748895854594
+    second: baldricfrontwalksheet copy_76
+  - first:
+      213: -4890275973441332746
+    second: baldricfrontwalksheet copy_77
+  - first:
+      213: 7025923564478897025
+    second: baldricfrontwalksheet copy_78
+  - first:
+      213: -4122278066233669498
+    second: baldricfrontwalksheet copy_79
+  - first:
+      213: 3413490121060321162
+    second: baldricfrontwalksheet copy_80
+  - first:
+      213: -468880769095387366
+    second: baldricfrontwalksheet copy_81
+  - first:
+      213: -6812035281412410638
+    second: baldricfrontwalksheet copy_82
+  - first:
+      213: -256513887366597613
+    second: baldricfrontwalksheet copy_83
+  - first:
+      213: -6845643397348746417
+    second: baldricfrontwalksheet copy_84
+  - first:
+      213: -1441207884865770975
+    second: baldricfrontwalksheet copy_85
+  - first:
+      213: -1012003924597548393
+    second: baldricfrontwalksheet copy_86
+  - first:
+      213: -1596116133002735602
+    second: baldricfrontwalksheet copy_87
+  - first:
+      213: 2008069080975410514
+    second: baldricfrontwalksheet copy_88
+  - first:
+      213: 3329631839667887651
+    second: baldricfrontwalksheet copy_89
+  - first:
+      213: -3264264444530246168
+    second: baldricfrontwalksheet copy_90
+  - first:
+      213: -7794952438427374344
+    second: baldricfrontwalksheet copy_91
+  - first:
+      213: -7715165098077009451
+    second: baldricfrontwalksheet copy_92
+  - first:
+      213: -118084548706562746
+    second: baldricfrontwalksheet copy_93
+  - first:
+      213: -7112220721333882903
+    second: baldricfrontwalksheet copy_94
+  - first:
+      213: -7766661434214238068
+    second: baldricfrontwalksheet copy_95
+  - first:
+      213: -3964425698554744120
+    second: baldricfrontwalksheet copy_96
+  - first:
+      213: 1215648365808746459
+    second: baldricfrontwalksheet copy_97
+  - first:
+      213: -1986659082246341012
+    second: baldricfrontwalksheet copy_98
+  - first:
+      213: 5962165038873081943
+    second: baldricfrontwalksheet copy_99
+  - first:
+      213: -4667271902733281896
+    second: baldricfrontwalksheet copy_100
+  - first:
+      213: 7490343862388026848
+    second: baldricfrontwalksheet copy_101
+  - first:
+      213: -5350306720176831761
+    second: baldricfrontwalksheet copy_102
+  - first:
+      213: 6159926674757645343
+    second: baldricfrontwalksheet copy_103
+  - first:
+      213: -3740990852087134299
+    second: baldricfrontwalksheet copy_104
+  - first:
+      213: -5086086041535921937
+    second: baldricfrontwalksheet copy_105
+  - first:
+      213: -2447753887031674492
+    second: baldricfrontwalksheet copy_106
+  - first:
+      213: -4715221992045069907
+    second: baldricfrontwalksheet copy_107
+  - first:
+      213: 5426432986491647277
+    second: baldricfrontwalksheet copy_108
+  - first:
+      213: -7971922038856432424
+    second: baldricfrontwalksheet copy_109
+  - first:
+      213: 5449252113398785416
+    second: baldricfrontwalksheet copy_110
+  - first:
+      213: 6175021231147604200
+    second: baldricfrontwalksheet copy_111
+  - first:
+      213: 8777766220992620105
+    second: baldricfrontwalksheet copy_112
+  - first:
+      213: -5932148131290119667
+    second: baldricfrontwalksheet copy_113
+  - first:
+      213: -8103367645016807955
+    second: baldricfrontwalksheet copy_114
+  - first:
+      213: -1504468076954427376
+    second: baldricfrontwalksheet copy_115
+  - first:
+      213: -1622400742508410003
+    second: baldricfrontwalksheet copy_116
+  - first:
+      213: -3964410932836904610
+    second: baldricfrontwalksheet copy_117
+  - first:
+      213: 736053307641304302
+    second: baldricfrontwalksheet copy_118
+  - first:
+      213: 2871729791007826171
+    second: baldricfrontwalksheet copy_119
+  - first:
+      213: 271106166859808206
+    second: baldricfrontwalksheet copy_120
+  - first:
+      213: -3005228061978316923
+    second: baldricfrontwalksheet copy_121
+  - first:
+      213: 4382439221982525334
+    second: baldricfrontwalksheet copy_122
+  - first:
+      213: 9050543755572971634
+    second: baldricfrontwalksheet copy_123
+  - first:
+      213: 3067666064113471016
+    second: baldricfrontwalksheet copy_124
+  - first:
+      213: 237567635828938739
+    second: baldricfrontwalksheet copy_125
+  - first:
+      213: -2280449914606934551
+    second: baldricfrontwalksheet copy_126
+  - first:
+      213: 1977544607517726018
+    second: baldricfrontwalksheet copy_127
+  - first:
+      213: -5408601831878434782
+    second: baldricfrontwalksheet copy_128
+  - first:
+      213: 617167438976732970
+    second: baldricfrontwalksheet copy_129
+  - first:
+      213: 176042555378613038
+    second: baldricfrontwalksheet copy_130
+  - first:
+      213: 6446086422201790233
+    second: baldricfrontwalksheet copy_131
+  - first:
+      213: -3629181709950538107
+    second: baldricfrontwalksheet copy_132
+  - first:
+      213: -147819986335831234
+    second: baldricfrontwalksheet copy_133
+  - first:
+      213: -6621543129024187788
+    second: baldricfrontwalksheet copy_134
+  - first:
+      213: 7919032751759519129
+    second: baldricfrontwalksheet copy_135
+  - first:
+      213: -5521703584973518819
+    second: baldricfrontwalksheet copy_136
+  - first:
+      213: 1786154081301868271
+    second: baldricfrontwalksheet copy_137
+  - first:
+      213: -8022689517574839244
+    second: baldricfrontwalksheet copy_138
+  - first:
+      213: -6517079955267363961
+    second: baldricfrontwalksheet copy_139
+  - first:
+      213: -4312104410279952982
+    second: baldricfrontwalksheet copy_140
+  - first:
+      213: -2356819677751887665
+    second: baldricfrontwalksheet copy_141
+  - first:
+      213: 8925689229608638861
+    second: baldricfrontwalksheet copy_142
+  - first:
+      213: 2531037449721836022
+    second: baldricfrontwalksheet copy_143
+  - first:
+      213: -731759918784322283
+    second: baldricfrontwalksheet copy_144
+  - first:
+      213: 1813163488547103052
+    second: baldricfrontwalksheet copy_145
+  - first:
+      213: -8388977785486642445
+    second: baldricfrontwalksheet copy_146
+  - first:
+      213: 5990325757022864778
+    second: baldricfrontwalksheet copy_147
+  - first:
+      213: -3487718383978993843
+    second: baldricfrontwalksheet copy_148
+  - first:
+      213: -261178577743265791
+    second: baldricfrontwalksheet copy_149
+  - first:
+      213: -867565355459457722
+    second: baldricfrontwalksheet copy_150
+  - first:
+      213: -7392734645677509899
+    second: baldricfrontwalksheet copy_151
+  - first:
+      213: -1388438094648230308
+    second: baldricfrontwalksheet copy_152
+  - first:
+      213: 4527128307906485048
+    second: baldricfrontwalksheet copy_153
+  - first:
+      213: 7915504869324648275
+    second: baldricfrontwalksheet copy_154
+  - first:
+      213: 9151618654504114602
+    second: baldricfrontwalksheet copy_155
+  - first:
+      213: 4305239940783388602
+    second: baldricfrontwalksheet copy_156
+  - first:
+      213: 4563569582548881371
+    second: baldricfrontwalksheet copy_157
+  - first:
+      213: 1975073701998870216
+    second: baldricfrontwalksheet copy_158
+  - first:
+      213: 2218248819794362316
+    second: baldricfrontwalksheet copy_159
+  - first:
+      213: 6582720995460204403
+    second: baldricfrontwalksheet copy_160
+  - first:
+      213: 4006069695392414080
+    second: baldricfrontwalksheet copy_161
+  - first:
+      213: 3979615708522672719
+    second: baldricfrontwalksheet copy_162
+  - first:
+      213: -3397434594100902527
+    second: baldricfrontwalksheet copy_163
+  - first:
+      213: -7571358627331632057
+    second: baldricfrontwalksheet copy_164
+  - first:
+      213: -410445098783415226
+    second: baldricfrontwalksheet copy_165
+  - first:
+      213: -7800272824599346553
+    second: baldricfrontwalksheet copy_166
+  - first:
+      213: 3495444753054454288
+    second: baldricfrontwalksheet copy_167
+  - first:
+      213: 8796448744818416210
+    second: baldricfrontwalksheet copy_168
+  - first:
+      213: 5406990377245397595
+    second: baldricfrontwalksheet copy_169
+  - first:
+      213: -2039283315235806626
+    second: baldricfrontwalksheet copy_170
+  - first:
+      213: 3950937544310086016
+    second: baldricfrontwalksheet copy_171
+  - first:
+      213: 2913640569778485562
+    second: baldricfrontwalksheet copy_172
+  - first:
+      213: -4405561748979589861
+    second: baldricfrontwalksheet copy_173
+  - first:
+      213: 4743368789120294165
+    second: baldricfrontwalksheet copy_174
+  - first:
+      213: -3221530519961127609
+    second: baldricfrontwalksheet copy_175
+  - first:
+      213: -7320193851173380665
+    second: baldricfrontwalksheet copy_176
+  - first:
+      213: 2405858804586908821
+    second: baldricfrontwalksheet copy_177
+  - first:
+      213: -2299506675343893357
+    second: baldricfrontwalksheet copy_178
+  - first:
+      213: -6299300725790937789
+    second: baldricfrontwalksheet copy_179
+  - first:
+      213: 417785938936654664
+    second: baldricfrontwalksheet copy_180
+  - first:
+      213: -5048268976118760658
+    second: baldricfrontwalksheet copy_181
+  - first:
+      213: -194418011389070471
+    second: baldricfrontwalksheet copy_182
+  - first:
+      213: 804009555370077063
+    second: baldricfrontwalksheet copy_183
+  - first:
+      213: 5988998851122391387
+    second: baldricfrontwalksheet copy_184
+  - first:
+      213: 305665590290361919
+    second: baldricfrontwalksheet copy_185
+  - first:
+      213: -6633121725689273010
+    second: baldricfrontwalksheet copy_186
+  - first:
+      213: 2302718844530898488
+    second: baldricfrontwalksheet copy_187
+  - first:
+      213: 2406268893163589963
+    second: baldricfrontwalksheet copy_188
+  - first:
+      213: 7494695988449713587
+    second: baldricfrontwalksheet copy_189
+  - first:
+      213: 1124391851006254907
+    second: baldricfrontwalksheet copy_190
+  - first:
+      213: -1635746199882092915
+    second: baldricfrontwalksheet copy_191
+  - first:
+      213: -1709778197154030229
+    second: baldricfrontwalksheet copy_192
+  - first:
+      213: -7125365844094584003
+    second: baldricfrontwalksheet copy_193
+  - first:
+      213: 349647925436437512
+    second: baldricfrontwalksheet copy_194
+  - first:
+      213: -4094855144195897430
+    second: baldricfrontwalksheet copy_195
+  - first:
+      213: 5697920855038071609
+    second: baldricfrontwalksheet copy_196
+  - first:
+      213: -6040999567891421403
+    second: baldricfrontwalksheet copy_197
+  - first:
+      213: -7505753876136791170
+    second: baldricfrontwalksheet copy_198
+  - first:
+      213: 5866992709880961690
+    second: baldricfrontwalksheet copy_199
+  - first:
+      213: -742926838146012087
+    second: baldricfrontwalksheet copy_200
+  - first:
+      213: -6551944556407764944
+    second: baldricfrontwalksheet copy_201
+  - first:
+      213: 3863046113805373898
+    second: baldricfrontwalksheet copy_202
+  - first:
+      213: -3795846794830248648
+    second: baldricfrontwalksheet copy_203
+  - first:
+      213: -6971478621631585301
+    second: baldricfrontwalksheet copy_204
+  - first:
+      213: -3521033513173262035
+    second: baldricfrontwalksheet copy_205
+  - first:
+      213: 1526037500363784719
+    second: baldricfrontwalksheet copy_206
+  - first:
+      213: 6276343097105224960
+    second: baldricfrontwalksheet copy_207
+  - first:
+      213: -1122753241530718793
+    second: baldricfrontwalksheet copy_208
+  - first:
+      213: 5818405234452310507
+    second: baldricfrontwalksheet copy_209
+  - first:
+      213: -3244618904355671645
+    second: baldricfrontwalksheet copy_210
+  - first:
+      213: -6946174481107150664
+    second: baldricfrontwalksheet copy_211
+  - first:
+      213: -960978782455502206
+    second: baldricfrontwalksheet copy_212
+  - first:
+      213: 522910886415783206
+    second: baldricfrontwalksheet copy_213
+  - first:
+      213: -4563424784682468874
+    second: baldricfrontwalksheet copy_214
+  - first:
+      213: -2652487721690392400
+    second: baldricfrontwalksheet copy_215
+  - first:
+      213: 3452380277246631421
+    second: baldricfrontwalksheet copy_216
+  - first:
+      213: -7005887163982905061
+    second: baldricfrontwalksheet copy_217
+  - first:
+      213: -5870819554437485038
+    second: baldricfrontwalksheet copy_218
+  - first:
+      213: 5601177567434561023
+    second: baldricfrontwalksheet copy_219
+  - first:
+      213: 4887428566619389924
+    second: baldricfrontwalksheet copy_220
+  - first:
+      213: -4119582024536109309
+    second: baldricfrontwalksheet copy_221
+  - first:
+      213: -1934660688836487227
+    second: baldricfrontwalksheet copy_222
+  - first:
+      213: -5014300910733119041
+    second: baldricfrontwalksheet copy_223
+  - first:
+      213: -2990288931129710792
+    second: baldricfrontwalksheet copy_224
+  - first:
+      213: -2303254530999712648
+    second: baldricfrontwalksheet copy_225
+  - first:
+      213: -6546848565061508218
+    second: baldricfrontwalksheet copy_226
+  - first:
+      213: -2582393107682302216
+    second: baldricfrontwalksheet copy_227
+  - first:
+      213: -3379804361047656373
+    second: baldricfrontwalksheet copy_228
+  - first:
+      213: -3993700535106944331
+    second: baldricfrontwalksheet copy_229
+  - first:
+      213: -622442991401731749
+    second: baldricfrontwalksheet copy_230
+  - first:
+      213: 8262106296126041542
+    second: baldricfrontwalksheet copy_231
+  - first:
+      213: -898726899580507467
+    second: baldricfrontwalksheet copy_232
+  - first:
+      213: 9140041639498163886
+    second: baldricfrontwalksheet copy_233
+  - first:
+      213: -5270418596835117066
+    second: baldricfrontwalksheet copy_234
+  - first:
+      213: -3951872059326206085
+    second: baldricfrontwalksheet copy_235
+  - first:
+      213: -7753537898615522165
+    second: baldricfrontwalksheet copy_236
+  - first:
+      213: 8251819755120727129
+    second: baldricfrontwalksheet copy_237
+  - first:
+      213: 2170964264335403839
+    second: baldricfrontwalksheet copy_238
+  - first:
+      213: 7361117076521701524
+    second: baldricfrontwalksheet copy_239
+  - first:
+      213: 1670779629142666937
+    second: baldricfrontwalksheet copy_240
+  - first:
+      213: -1524484516260324268
+    second: baldricfrontwalksheet copy_241
+  - first:
+      213: 5568965439213403563
+    second: baldricfrontwalksheet copy_242
+  - first:
+      213: -7304097114396712653
+    second: baldricfrontwalksheet copy_243
+  - first:
+      213: -5538512874491514229
+    second: baldricfrontwalksheet copy_244
+  - first:
+      213: 946372709000924815
+    second: baldricfrontwalksheet copy_245
+  - first:
+      213: 6055562772236575797
+    second: baldricfrontwalksheet copy_246
+  - first:
+      213: -6840939774704836263
+    second: baldricfrontwalksheet copy_247
+  - first:
+      213: 4137652398189480822
+    second: baldricfrontwalksheet copy_248
+  - first:
+      213: 6166557914268215319
+    second: baldricfrontwalksheet copy_249
+  - first:
+      213: -4306836599480146199
+    second: baldricfrontwalksheet copy_250
+  - first:
+      213: -309369363309304203
+    second: baldricfrontwalksheet copy_251
+  - first:
+      213: -4013484893626516494
+    second: baldricfrontwalksheet copy_252
+  - first:
+      213: -7795952299721304121
+    second: baldricfrontwalksheet copy_253
+  - first:
+      213: 523940923579884023
+    second: baldricfrontwalksheet copy_254
+  - first:
+      213: 5444661060161258688
+    second: baldricfrontwalksheet copy_255
+  - first:
+      213: 3349009975701189885
+    second: baldricfrontwalksheet copy_256
+  - first:
+      213: 4329519741375717230
+    second: baldricfrontwalksheet copy_257
+  - first:
+      213: -6889324640272639434
+    second: baldricfrontwalksheet copy_258
+  - first:
+      213: 2777063479919180415
+    second: baldricfrontwalksheet copy_259
+  - first:
+      213: -175359799984942118
+    second: baldricfrontwalksheet copy_260
+  - first:
+      213: 3160802375352090822
+    second: baldricfrontwalksheet copy_261
+  - first:
+      213: 559245125732279333
+    second: baldricfrontwalksheet copy_262
+  - first:
+      213: -6774173741469204045
+    second: baldricfrontwalksheet copy_263
+  - first:
+      213: -3685364806348977147
+    second: baldricfrontwalksheet copy_264
+  - first:
+      213: 779861885148970710
+    second: baldricfrontwalksheet copy_265
+  - first:
+      213: 3794724828801461785
+    second: baldricfrontwalksheet copy_266
+  - first:
+      213: 3313413895818802657
+    second: baldricfrontwalksheet copy_267
+  - first:
+      213: -6306448400363622052
+    second: baldricfrontwalksheet copy_268
+  - first:
+      213: 3052176594810630948
+    second: baldricfrontwalksheet copy_269
+  - first:
+      213: 8958666217640289790
+    second: baldricfrontwalksheet copy_270
+  - first:
+      213: 6600927892780995682
+    second: baldricfrontwalksheet copy_271
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 195
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ffa56c1f0e52d4aa601e9160f6afb2
+      internalID: -2052431726481276142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 195
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d425b432dc017be468492db0652a4b69
+      internalID: -3090692638585549993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 194
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cad99aaeca8811428a66004dc5764bd
+      internalID: -2748129189736969666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 193
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa479d50ffbc54458e8fb197c2b0e01
+      internalID: -1499130596144497163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 194
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc68961b10bb75419167e654a3e0260
+      internalID: 2159413236354789827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 195
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845d28597922c624ab1f2ea16c0f3a9e
+      internalID: 4169945140939308764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 194
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163311926e3ed7c45aecff5b50b9f3eb
+      internalID: -8961355863282979403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 193
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb113f57d0f609498b59701e0cc716b
+      internalID: -7163215637310565132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 194
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b52b6ec872761439d369388fb97118
+      internalID: -661963077263761035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 130
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e565fdbe6af11f48a31205be1974f32
+      internalID: 3330421246626613734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_10
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 130
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a149d3cdba19349bd75913161bc5c9
+      internalID: 946719141549838623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 131
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237202fbd17a67d4b8e1af9ed267feb1
+      internalID: 4832551021343312934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_12
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 131
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36d0fb0ddd626d45bbdfe99e5c5f66b
+      internalID: 3808045535579588690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 130
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2574a99783b96418105f605e0899d3
+      internalID: 1862063397081042514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 130
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1da5dfe678cb04c913b49f38c8638d
+      internalID: 1405649437160449272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 130
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9250a2d0df4f8d45a065dd2c1dba839
+      internalID: 6940801900377978970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 130
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d32e484affab5948b0a7b2974d5b66b
+      internalID: 4851254636803412192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_17
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 130
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb23a83f8ee8644cabce8dbf979ec09
+      internalID: -4021261642883145848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 65
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ebb70cdb2c1ad4a81feaa6868c1230
+      internalID: 4197864560447741061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 65
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4b0e05eb598b74986b204eeb332031
+      internalID: -7985851070333483904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 65
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6090d5c7e934149a5809ff2499d7b5
+      internalID: 7336897245104598810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a7890413d575140ad848d919c7d3c1
+      internalID: 7130663292845236979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03222e1f914cfe1449fb7512a6ebc234
+      internalID: 5050045580902342887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 65
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d0c0b909e3ac94498b3063e3c1072e
+      internalID: 5179954182140195336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 65
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0a9355e96835d438bc78f444459d48
+      internalID: -7315604807881736482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0739aa267df8e3e498a2bfcbfde40e1a
+      internalID: -4152894151342043641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_26
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 64
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890a794f810bd474aa79fd1538b5eef0
+      internalID: 741959240412995591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a4b0c8910393943b35f1c95bca22a5
+      internalID: 5367673639504692056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a33f43fd7c8764c8bf015846fe362c
+      internalID: -8361194711098568817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_29
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 3
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3718f8a6c0c1aaf40bfb931e3664615c
+      internalID: 5524116885467534763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_30
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0604595c9bbe53d4ca3629fd158d2097
+      internalID: 6498032292341435702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823ccc5e3fcf3ea4dbc2df725eb10be4
+      internalID: -262564405591897350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b849bc17c198fa9498b34a1f63004efb
+      internalID: -270210287800301078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_33
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd9d255a0350824b97db62baa9fbff2
+      internalID: -8538513463781205432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_34
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f34dda4c04e504fa5c7957fbcff4b0
+      internalID: 2065367245653089928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baldricfrontwalksheet copy_35
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46255f096ade3b42b40180f61209cde
+      internalID: -6251913712027637737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 63a5702565b253849ae366a2beafd263
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

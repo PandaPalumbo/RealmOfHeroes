@@ -1,0 +1,1063 @@
+fileFormatVersion: 2
+guid: e885b1019448141429505451ee60366e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4418417306460202141
+    second: Mage spell casting sheet copy_0
+  - first:
+      213: -7280723715598477987
+    second: Mage spell casting sheet copy_1
+  - first:
+      213: -1326348574391186946
+    second: Mage spell casting sheet copy_2
+  - first:
+      213: -1439395307452615457
+    second: Mage spell casting sheet copy_3
+  - first:
+      213: 1513767112287350799
+    second: Mage spell casting sheet copy_4
+  - first:
+      213: 7983169141542744293
+    second: Mage spell casting sheet copy_5
+  - first:
+      213: -5689866972763868099
+    second: Mage spell casting sheet copy_6
+  - first:
+      213: 1935235847233468942
+    second: Mage spell casting sheet copy_7
+  - first:
+      213: 5532413551590496914
+    second: Mage spell casting sheet copy_8
+  - first:
+      213: -8782625270190357176
+    second: Mage spell casting sheet copy_9
+  - first:
+      213: 4380417634861180242
+    second: Mage spell casting sheet copy_10
+  - first:
+      213: 7804773246741052803
+    second: Mage spell casting sheet copy_11
+  - first:
+      213: 1384814903611036838
+    second: Mage spell casting sheet copy_12
+  - first:
+      213: 2149657701983211001
+    second: Mage spell casting sheet copy_13
+  - first:
+      213: -4102295485817814045
+    second: Mage spell casting sheet copy_14
+  - first:
+      213: -3697635554451421991
+    second: Mage spell casting sheet copy_15
+  - first:
+      213: -8819998575232339840
+    second: Mage spell casting sheet copy_16
+  - first:
+      213: -4952665336673594526
+    second: Mage spell casting sheet copy_17
+  - first:
+      213: -4705990738786216872
+    second: Mage spell casting sheet copy_18
+  - first:
+      213: 1834927247416316572
+    second: Mage spell casting sheet copy_19
+  - first:
+      213: 1587827252051014023
+    second: Mage spell casting sheet copy_20
+  - first:
+      213: -2783848398983830043
+    second: Mage spell casting sheet copy_21
+  - first:
+      213: -2079326983959687327
+    second: Mage spell casting sheet copy_22
+  - first:
+      213: -1073962099739308393
+    second: Mage spell casting sheet copy_23
+  - first:
+      213: -6398676609655360275
+    second: Mage spell casting sheet copy_24
+  - first:
+      213: 3160984998341104084
+    second: Mage spell casting sheet copy_25
+  - first:
+      213: 3037407407386872041
+    second: Mage spell casting sheet copy_26
+  - first:
+      213: -2702493121578323662
+    second: Mage spell casting sheet copy_27
+  - first:
+      213: 3872967927497929917
+    second: Mage spell casting sheet copy_28
+  - first:
+      213: 2776996614555161604
+    second: Mage spell casting sheet copy_29
+  - first:
+      213: -8338394174436473407
+    second: Mage spell casting sheet copy_30
+  - first:
+      213: -5669972940129205894
+    second: Mage spell casting sheet copy_31
+  - first:
+      213: -694502431907780060
+    second: Mage spell casting sheet copy_32
+  - first:
+      213: -1807223342199600808
+    second: Mage spell casting sheet copy_33
+  - first:
+      213: -2250633765729880397
+    second: Mage spell casting sheet copy_34
+  - first:
+      213: -9036484178008230967
+    second: Mage spell casting sheet copy_35
+  - first:
+      213: 3661881064496030307
+    second: Mage spell casting sheet copy_36
+  - first:
+      213: 3323256985618629433
+    second: Mage spell casting sheet copy_37
+  - first:
+      213: -826444979501721576
+    second: Mage spell casting sheet copy_38
+  - first:
+      213: 4347649646684240644
+    second: Mage spell casting sheet copy_39
+  - first:
+      213: -8109022248282615133
+    second: Mage spell casting sheet copy_40
+  - first:
+      213: 4990157102098701213
+    second: Mage spell casting sheet copy_41
+  - first:
+      213: 93228485197810959
+    second: Mage spell casting sheet copy_42
+  - first:
+      213: 7373150302496873623
+    second: Mage spell casting sheet copy_43
+  - first:
+      213: 3922807602002406844
+    second: Mage spell casting sheet copy_44
+  - first:
+      213: 6138201254273974906
+    second: Mage spell casting sheet copy_45
+  - first:
+      213: 5369969341927849874
+    second: Mage spell casting sheet copy_46
+  - first:
+      213: 1249223485278070304
+    second: Mage spell casting sheet copy_47
+  - first:
+      213: 4577161144261778683
+    second: Mage spell casting sheet copy_48
+  - first:
+      213: -5731154019615334335
+    second: Mage spell casting sheet copy_49
+  - first:
+      213: 7611572156144611124
+    second: Mage spell casting sheet copy_50
+  - first:
+      213: 4476026733605636757
+    second: Mage spell casting sheet copy_51
+  - first:
+      213: -5577288425092715931
+    second: Mage spell casting sheet copy_52
+  - first:
+      213: 1144356884185373212
+    second: Mage spell casting sheet copy_53
+  - first:
+      213: -8333826852924860987
+    second: Mage spell casting sheet copy_54
+  - first:
+      213: 5523930747608637236
+    second: Mage spell casting sheet copy_55
+  - first:
+      213: 668399587548570424
+    second: Mage spell casting sheet copy_56
+  - first:
+      213: 8549960954375239105
+    second: Mage spell casting sheet copy_57
+  - first:
+      213: -6032433749655041477
+    second: Mage spell casting sheet copy_58
+  - first:
+      213: 1912211172275670099
+    second: Mage spell casting sheet copy_59
+  - first:
+      213: -2597075860026226295
+    second: Mage spell casting sheet copy_60
+  - first:
+      213: 2298988081629643024
+    second: Mage spell casting sheet copy_61
+  - first:
+      213: -45745535870933637
+    second: Mage spell casting sheet copy_62
+  - first:
+      213: 4344369601494975945
+    second: Mage spell casting sheet copy_63
+  - first:
+      213: 2872226802160327914
+    second: Mage spell casting sheet copy_64
+  - first:
+      213: 4729707873973027779
+    second: Mage spell casting sheet copy_65
+  - first:
+      213: -1264480554664927551
+    second: Mage spell casting sheet copy_66
+  - first:
+      213: 8884008677939215390
+    second: Mage spell casting sheet copy_67
+  - first:
+      213: 4996295245988250930
+    second: Mage spell casting sheet copy_68
+  - first:
+      213: 8277799179450441454
+    second: Mage spell casting sheet copy_69
+  - first:
+      213: -6690302655434389976
+    second: Mage spell casting sheet copy_70
+  - first:
+      213: 4341906943712227831
+    second: Mage spell casting sheet copy_71
+  - first:
+      213: 6177637313307979433
+    second: Mage spell casting sheet copy_72
+  - first:
+      213: 3295167060682790184
+    second: Mage spell casting sheet copy_73
+  - first:
+      213: 7563428419598091132
+    second: Mage spell casting sheet copy_74
+  - first:
+      213: 591568664403785204
+    second: Mage spell casting sheet copy_75
+  - first:
+      213: -6848729232378244335
+    second: Mage spell casting sheet copy_76
+  - first:
+      213: -2570724596222357781
+    second: Mage spell casting sheet copy_77
+  - first:
+      213: 6054389329630008075
+    second: Mage spell casting sheet copy_78
+  - first:
+      213: 146177221126141270
+    second: Mage spell casting sheet copy_79
+  - first:
+      213: 5194483165541650054
+    second: Mage spell casting sheet copy_80
+  - first:
+      213: 2845427404241782880
+    second: Mage spell casting sheet copy_81
+  - first:
+      213: -8838396760374899036
+    second: Mage spell casting sheet copy_82
+  - first:
+      213: -5229788284324780117
+    second: Mage spell casting sheet copy_83
+  - first:
+      213: -4885472728427677857
+    second: Mage spell casting sheet copy_84
+  - first:
+      213: 2240683385471815878
+    second: Mage spell casting sheet copy_85
+  - first:
+      213: -4390371813281969850
+    second: Mage spell casting sheet copy_86
+  - first:
+      213: 6392992099043223494
+    second: Mage spell casting sheet copy_87
+  - first:
+      213: -6560174770850582245
+    second: Mage spell casting sheet copy_88
+  - first:
+      213: 7413369180495491933
+    second: Mage spell casting sheet copy_89
+  - first:
+      213: 463707553675010223
+    second: Mage spell casting sheet copy_90
+  - first:
+      213: 4922699793689642454
+    second: Mage spell casting sheet copy_91
+  - first:
+      213: 5690427740128915840
+    second: Mage spell casting sheet copy_92
+  - first:
+      213: -4764401226310934423
+    second: Mage spell casting sheet copy_93
+  - first:
+      213: 5234726761082884339
+    second: Mage spell casting sheet copy_94
+  - first:
+      213: -433573070869317648
+    second: Mage spell casting sheet copy_95
+  - first:
+      213: 7471706538030121071
+    second: Mage spell casting sheet copy_96
+  - first:
+      213: 6021396668795440331
+    second: Mage spell casting sheet copy_97
+  - first:
+      213: 934473474898285838
+    second: Mage spell casting sheet copy_98
+  - first:
+      213: 2921112439351797091
+    second: Mage spell casting sheet copy_99
+  - first:
+      213: -8628633130788156637
+    second: Mage spell casting sheet copy_100
+  - first:
+      213: -7966008486471928660
+    second: Mage spell casting sheet copy_101
+  - first:
+      213: 4633115471024036100
+    second: Mage spell casting sheet copy_102
+  - first:
+      213: 8684683380036188625
+    second: Mage spell casting sheet copy_103
+  - first:
+      213: -7728145978068323565
+    second: Mage spell casting sheet copy_104
+  - first:
+      213: 8499228171145679896
+    second: Mage spell casting sheet copy_105
+  - first:
+      213: 8313694442265028540
+    second: Mage spell casting sheet copy_106
+  - first:
+      213: 8646932587609686140
+    second: Mage spell casting sheet copy_107
+  - first:
+      213: -6904071645250480184
+    second: Mage spell casting sheet copy_108
+  - first:
+      213: 3482162123899361870
+    second: Mage spell casting sheet copy_109
+  - first:
+      213: -2836789258189443164
+    second: Mage spell casting sheet copy_110
+  - first:
+      213: 2511451088683047941
+    second: Mage spell casting sheet copy_111
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 194
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94aff4612f515d30800000000000000
+      internalID: 4418417306460202141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 194
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d559df70b5ca5fa90800000000000000
+      internalID: -7280723715598477987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 194
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef94117bffcd79de0800000000000000
+      internalID: -1326348574391186946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 194
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd43ce7189d360ce0800000000000000
+      internalID: -1439395307452615457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 194
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f007e881b2bf10510800000000000000
+      internalID: 1513767112287350799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 194
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0f38f990ae9ce60800000000000000
+      internalID: 7983169141542744293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 194
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34be2d62288901b0800000000000000
+      internalID: -5689866972763868099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 130
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0af3feefb65bda10800000000000000
+      internalID: 1935235847233468942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 130
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29adb1d20d417cc40800000000000000
+      internalID: 5532413551590496914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 130
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8454fee59d8dd1680800000000000000
+      internalID: -8782625270190357176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 130
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255e1c561ae5acc30800000000000000
+      internalID: 4380417634861180242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 130
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38df87c9aef105c60800000000000000
+      internalID: 7804773246741052803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 130
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4176951d9d73310800000000000000
+      internalID: 1384814903611036838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 130
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd44636a4e15dd10800000000000000
+      internalID: 2149657701983211001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 66
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e304249df7b117c0800000000000000
+      internalID: -4102295485817814045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 66
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4811cdd0c5facc0800000000000000
+      internalID: -3697635554451421991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 66
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08033d3b602199580800000000000000
+      internalID: -8819998575232339840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 66
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2631e2cdd19944bb0800000000000000
+      internalID: -4952665336673594526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 66
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8549e524b56f0beb0800000000000000
+      internalID: -4705990738786216872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 66
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c925fe21c98f67910800000000000000
+      internalID: 1834927247416316572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 66
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7817f2b1978190610800000000000000
+      internalID: 1587827252051014023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5670e61a8cd59d0800000000000000
+      internalID: -2783848398983830043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fc235ff1fb423e0800000000000000
+      internalID: -2079326983959687327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4ece09258811f0800000000000000
+      internalID: -1073962099739308393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de434e076855337a0800000000000000
+      internalID: -6398676609655360275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1d57ebb131edb20800000000000000
+      internalID: 3160984998341104084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e84f63b1f9072a20800000000000000
+      internalID: 3037407407386872041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage spell casting sheet copy_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231336803d0de7ad0800000000000000
+      internalID: -2702493121578323662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f7ac5b322a34c0f4d80a159763e164ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
