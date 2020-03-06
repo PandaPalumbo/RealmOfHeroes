@@ -28,6 +28,11 @@ public class Mechanics : MonoBehaviour
     public GameObject inMovementButtons;
     public GameObject alertText;
     public GameObject endTurn;
+    public UnityEngine.UI.Image currentHP;
+    public UnityEngine.UI.Text characterName;
+    public GameObject characterFrame;
+
+    public Camera camera;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +55,8 @@ public class Mechanics : MonoBehaviour
         MouseOverTile(mousePos);
         HandleMovement();
         setAlertText();
+        MoveCamera();
+        
     }
 
     private void HandleMovement()
@@ -138,6 +145,7 @@ public class Mechanics : MonoBehaviour
                     {
                         if(hero != selectedHero)
                         {
+                            HideObject(characterFrame);
                             HideObject(encounterPanel);
                             if (selectedHero != null)
                             {
@@ -146,12 +154,16 @@ public class Mechanics : MonoBehaviour
                             selectedHero = hero;
                             selectedHero.isSelected = true;
                             ShowObject(encounterPanel);
+                            ShowObject(characterFrame);
+                            SetCurrentHP();
+                            SetCharacterName();
                             break;
                         }
                     }
                     else
                     {
                         HideObject(encounterPanel);
+                        HideObject(characterFrame);
                         if (selectedHero != null)
                         {
                             selectedHero.isSelected = false;
@@ -180,8 +192,9 @@ public class Mechanics : MonoBehaviour
                 {
                     if (monster.transform.position.y - 1f == y && monster.transform.position.x == x)
                     {
-                        if (monster != selectedHero)
+                        if (monster != selectedMonster)
                         {
+                            HideObject(characterFrame);
                             HideObject(encounterPanel);
                             if(selectedMonster != null)
                             {
@@ -190,12 +203,16 @@ public class Mechanics : MonoBehaviour
                             selectedMonster = monster;
                             selectedMonster.isSelected = true;
                             ShowObject(encounterPanel);
+                            ShowObject(characterFrame);
+                            SetCurrentHP();
+                            SetCharacterName();
                             break;
                         }
                     }
                     else
                     {
                         HideObject(encounterPanel);
+                        HideObject(characterFrame);
                         if (selectedMonster != null)
                         {
                             selectedMonster.isSelected = false;
@@ -339,7 +356,6 @@ public class Mechanics : MonoBehaviour
         }
     }
 
-
     public void setAlertText()
     {
         if (isHeroesTurn)
@@ -352,4 +368,41 @@ public class Mechanics : MonoBehaviour
         
     }
 
+    public void MoveCamera()
+    {
+        if((selectedHero==null ||!selectedHero.canMove) && (selectedMonster == null || !selectedMonster.canMove)){
+            if(Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1){
+                camera.transform.position = new Vector3((camera.transform.position.x + Input.GetAxisRaw("Horizontal") * 0.5f), camera.transform.position.y, camera.transform.position.z);
+            }
+            if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1)
+            {
+                camera.transform.position = new Vector3(camera.transform.position.x, (camera.transform.position.y + Input.GetAxisRaw("Vertical") * 0.5f), camera.transform.position.z);
+            }
+        }
+    }
+
+    public void SetCharacterName()
+    {
+        if (selectedHero != null)
+        {
+            characterName.text = selectedHero.name;
+        }
+        if (selectedMonster != null)
+        {
+            characterName.text = selectedMonster.name;
+        }
+    }
+    public void SetCurrentHP()
+    {
+        if(selectedHero != null)
+        {
+
+            currentHP.transform.localScale = new Vector3(currentHP.transform.localScale.x * (selectedHero.currentHp/selectedHero.maxHp), currentHP.transform.localScale.y, currentHP.transform.localScale.z);
+        }
+        if (selectedMonster != null)
+        {
+            currentHP.transform.localScale = new Vector3(currentHP.transform.localScale.x * (selectedMonster.currentHp / selectedMonster.maxHp), currentHP.transform.localScale.y, currentHP.transform.localScale.z);
+
+        }
+    }
 }

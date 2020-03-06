@@ -11,7 +11,8 @@ public class Monster: MonoBehaviour
     public int gameSpeed;
     public int actionPoints;
     private int originalAP;
-
+    public int maxHp;
+    public int currentHp;
 
     //movement
     public bool canMove;
@@ -37,6 +38,7 @@ public class Monster: MonoBehaviour
 
 
 
+
     public void Start()
     {
         //set objects and variables
@@ -57,23 +59,26 @@ public class Monster: MonoBehaviour
     }
 
     private void PlayerRotation()
-    { 
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-        {           
-            spriteRenderer.sprite = lookLeft;
-        }
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+    {
+        if (canMove)
         {
-            spriteRenderer.sprite = lookRight;
-            
-        }
-        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            spriteRenderer.sprite = lookDown;
-        }
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            spriteRenderer.sprite = lookUp;
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                spriteRenderer.sprite = lookLeft;
+            }
+            if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                spriteRenderer.sprite = lookRight;
+
+            }
+            if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                spriteRenderer.sprite = lookDown;
+            }
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                spriteRenderer.sprite = lookUp;
+            }
         }
     }
 

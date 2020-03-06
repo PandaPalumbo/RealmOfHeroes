@@ -11,7 +11,8 @@ public class Hero: MonoBehaviour
     public int gameSpeed;
     public int actionPoints;
     private int originalAP;
-
+    public int maxHp;
+    public int currentHp;
 
     //movement
     public bool canMove;
@@ -28,23 +29,25 @@ public class Hero: MonoBehaviour
     Vector2 movement;
 
     //playe sprites
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
+    public Material outlineMaterial;
+    public Material defaultMaterial;
     public Sprite lookUp;
     public Sprite lookDown;
     public Sprite lookRight;
     public Sprite lookLeft;
     public Sprite movementAreaTile;
-
-
+    public Sprite spriteMap;
+    private Material material;
+    private bool isSelectMat;
 
     public void Start()
     {
         //set objects and variables
         grid = baseGrid.grid;
         moveSpeed = gameSpeed / 5;
-        spriteRenderer = GetComponent<SpriteRenderer>();
         originalAP = actionPoints;
-
+  
     }
 
     private void Update()
@@ -53,28 +56,57 @@ public class Hero: MonoBehaviour
         {
             PlayerRotation();
             MoveToMouse();
+            if(GameObject.Find("SpawnSprite") == null)
+            {               
+                SpawnSelectedTile();               
+            }
+        }
+        else
+        {
+            spriteRenderer.material = defaultMaterial;
+            if (GameObject.Find("SpawnSprite") != null)
+            {
+                DestroyObject(GameObject.Find("SpawnSprite"));
+            }
         }
     }
 
+
+    private void SpawnSelectedTile()
+    {
+        UtilsClass.CreateWorldSprite(
+                    "SpawnSprite",
+                    movementAreaTile, //sprite
+                    new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z), // pos
+                    new Vector3(1, 1, 0), // scale
+                    1, //order
+                    new Color(239, 255, 139, 0.3f) // color
+                );
+    }
+
     private void PlayerRotation()
-    { 
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-        {           
-            spriteRenderer.sprite = lookLeft;
-        }
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+    {
+        if (canMove)
         {
-            spriteRenderer.sprite = lookRight;
-            
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                spriteRenderer.sprite = lookLeft;
+            }
+            if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                spriteRenderer.sprite = lookRight;
+
+            }
+            if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                spriteRenderer.sprite = lookDown;
+            }
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                spriteRenderer.sprite = lookUp;
+            }
         }
-        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            spriteRenderer.sprite = lookDown;
-        }
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            spriteRenderer.sprite = lookUp;
-        }
+        
     }
 
     private void MoveToMouse()
