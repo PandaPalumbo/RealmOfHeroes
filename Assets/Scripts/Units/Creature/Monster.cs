@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 
-public class Hero: MonoBehaviour
+public class Monster: MonoBehaviour
 {
 
     //attributes
@@ -11,8 +11,9 @@ public class Hero: MonoBehaviour
     public int gameSpeed;
     public int actionPoints;
     private int originalAP;
-    public int maxHp;
-    public int currentHp;
+    public float maxHp;
+    public float currentHp;
+    public bool inCombat;
 
     //movement
     public bool canMove;
@@ -29,59 +30,44 @@ public class Hero: MonoBehaviour
     Vector2 movement;
 
     //playe sprites
-    public SpriteRenderer spriteRenderer;
-    public Material outlineMaterial;
-    public Material defaultMaterial;
+    private SpriteRenderer spriteRenderer;
     public Sprite lookUp;
     public Sprite lookDown;
     public Sprite lookRight;
     public Sprite lookLeft;
     public Sprite movementAreaTile;
-    public Sprite spriteMap;
-    private Material material;
-    private bool isSelectMat;
+
+
+
 
     public void Start()
     {
         //set objects and variables
         grid = baseGrid.grid;
         moveSpeed = gameSpeed / 5;
+        spriteRenderer = GetComponent<SpriteRenderer>();
         originalAP = actionPoints;
-  
+
     }
 
     private void Update()
     {
-        if (isSelected)
+        if (inCombat)
         {
-            PlayerRotation();
-            MoveToMouse();
-            if(GameObject.Find("SpawnSprite") == null)
-            {               
-                SpawnSelectedTile();               
+            if (isSelected)
+            {
+                PlayerRotation();
+                MoveToMouse();
+
             }
         }
         else
         {
-            spriteRenderer.material = defaultMaterial;
-            if (GameObject.Find("SpawnSprite") != null)
+            if (isSelected)
             {
-                DestroyObject(GameObject.Find("SpawnSprite"));
+
             }
         }
-    }
-
-
-    private void SpawnSelectedTile()
-    {
-        UtilsClass.CreateWorldSprite(
-                    "SpawnSprite",
-                    movementAreaTile, //sprite
-                    new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z), // pos
-                    new Vector3(1, 1, 0), // scale
-                    1, //order
-                    new Color(239, 255, 139, 0.3f) // color
-                );
     }
 
     private void PlayerRotation()
@@ -106,7 +92,6 @@ public class Hero: MonoBehaviour
                 spriteRenderer.sprite = lookUp;
             }
         }
-        
     }
 
     private void MoveToMouse()
@@ -139,9 +124,6 @@ public class Hero: MonoBehaviour
         }        
     }
 
-    public void OnSelect() {
-        
-    }
 
     //enables movement and shows player possible tiles they can move to. 
     public void EnableMovement()
@@ -192,6 +174,6 @@ public class Hero: MonoBehaviour
     public void Reset()
     {
         moveSpeed = gameSpeed / 5;
-        actionPoints = originalAP;
+        actionPoints = originalAP ;
     }
 }

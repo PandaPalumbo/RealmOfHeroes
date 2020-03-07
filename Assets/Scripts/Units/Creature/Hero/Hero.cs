@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 
-public class Monster: MonoBehaviour
+public class Hero: MonoBehaviour
 {
+    
+
 
     //attributes
     public string name;
+    public int level;
     public int gameSpeed;
     public int actionPoints;
     private int originalAP;
-    public int maxHp;
-    public int currentHp;
+    public float maxHp;
+    public float currentHp;
+
+    public bool inCombat;
 
     //movement
     public bool canMove;
@@ -29,33 +34,65 @@ public class Monster: MonoBehaviour
     Vector2 movement;
 
     //playe sprites
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
+    public Material outlineMaterial;
+    public Material defaultMaterial;
     public Sprite lookUp;
     public Sprite lookDown;
     public Sprite lookRight;
     public Sprite lookLeft;
     public Sprite movementAreaTile;
+    public Sprite spriteMap;
+    private Material material;
+    private bool isSelectMat;
 
-
-
+   
 
     public void Start()
     {
         //set objects and variables
         grid = baseGrid.grid;
         moveSpeed = gameSpeed / 5;
-        spriteRenderer = GetComponent<SpriteRenderer>();
         originalAP = actionPoints;
-
+  
     }
 
     private void Update()
     {
-        if (isSelected)
+        if (inCombat)
         {
-            PlayerRotation();
-            MoveToMouse();
+            if (isSelected)
+            {
+                PlayerRotation();
+                MoveToMouse();
+
+            }
+        } else
+        {
+            if (isSelected)
+            {
+                SpawnSelectedTile();
+                GameObject spawntile = GameObject.Find("SpawnSprite");
+                if(spawntile != null)
+                {
+                    NormalMovement();
+                }
+            }
         }
+        
+    }
+
+
+    private void SpawnSelectedTile()
+    {
+        UtilsClass.CreateWorldSprite(
+                    "SpawnSprite",
+                    movementAreaTile, //sprite
+                    new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z), // pos
+                    new Vector3(1, 1, 0), // scale
+                    1, //order
+                    new Color(239, 255, 139, 0.3f) // color
+                );
     }
 
     private void PlayerRotation()
@@ -80,8 +117,13 @@ public class Monster: MonoBehaviour
                 spriteRenderer.sprite = lookUp;
             }
         }
+        
     }
 
+    private void NormalMovement()
+    {
+
+    }
     private void MoveToMouse()
     {
         //EnableMovement()
@@ -112,6 +154,9 @@ public class Monster: MonoBehaviour
         }        
     }
 
+    public void OnSelect() {
+        
+    }
 
     //enables movement and shows player possible tiles they can move to. 
     public void EnableMovement()
@@ -162,6 +207,6 @@ public class Monster: MonoBehaviour
     public void Reset()
     {
         moveSpeed = gameSpeed / 5;
-        actionPoints = originalAP ;
+        actionPoints = originalAP;
     }
 }

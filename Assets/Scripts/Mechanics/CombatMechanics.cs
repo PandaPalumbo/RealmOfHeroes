@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 
-public class Mechanics : MonoBehaviour
+public class CombatMechanics : MonoBehaviour
 {
+
+    public GameState gameState;
+
+    //combat
+    public bool inCombat;
     public int numberOfHeros;
     public BaseGrid baseGrid;
     public Grid grid;
@@ -16,7 +21,6 @@ public class Mechanics : MonoBehaviour
     private Vector3 mousePos;
     private bool mouseTileExists;
     private SpriteRenderer mouseOverSR;
-
     public bool isHeroesTurn;
     public bool isMonstersTurn;
 
@@ -28,7 +32,8 @@ public class Mechanics : MonoBehaviour
     public GameObject inMovementButtons;
     public GameObject alertText;
     public GameObject endTurn;
-    public UnityEngine.UI.Image currentHP;
+    public UnityEngine.UI.Slider currentHP;
+    public UnityEngine.UI.Image currentHPImage;
     public UnityEngine.UI.Text characterName;
     public GameObject characterFrame;
 
@@ -51,24 +56,46 @@ public class Mechanics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mousePos = UtilsClass.GetMouseWorldPosition();
-        MouseOverTile(mousePos);
-        HandleMovement();
-        setAlertText();
-        MoveCamera();
-        
+        GetGameState();
+        if (inCombat)
+        {
+            ShowObject(alertText);
+            setAlertText();
+            MoveCameraCombat();
+            if (selectedHero != null || selectedMonster != null)
+            {
+                SetCurrentHP();
+            }
+            mousePos = UtilsClass.GetMouseWorldPosition();
+            MouseOverTile(mousePos);
+            HandleMovement();
+        }
+
+
+    }
+
+    private void GetGameState()
+    {
+        if(gameState.gameState == EGameState.IN_COMBAT)
+        {
+            inCombat = true;
+            SetCombatBools();
+        } else
+        {
+            inCombat = false;
+            SetCombatBools();
+        }
     }
 
     private void HandleMovement()
     {
-        if ((selectedHero == null || selectedHero.canMove == false) && isHeroesTurn)
+        if (inCombat)
         {
-            SelectHero();
-        }
-        if ((selectedMonster == null || selectedMonster.canMove == false) && isMonstersTurn)
-        {
-            SelectMonster();
-        }
+            if (((selectedHero == null || selectedHero.canMove == false) && isHeroesTurn) || ((selectedMonster == null || selectedMonster.canMove == false) && isMonstersTurn))
+            {
+                SelectPlayer();
+            }
+        } 
     }
 
     //creates the hover over sprite on the grid that folows mouse
@@ -128,7 +155,7 @@ public class Mechanics : MonoBehaviour
     }
 
     // allows hero to be selected
-    public void SelectHero()
+    public void SelectPlayer()
     {
         
         if (Input.GetMouseButtonDown(0))
@@ -139,38 +166,81 @@ public class Mechanics : MonoBehaviour
             //Debug.Log("X clicked: " + x + "Y clicked:" + y);
             if (isHoverOverButton == false)
             {
-                foreach (Hero hero in heros)
-                {
-                    if (hero.transform.position.y - 1f == y && hero.transform.position.x == x)
+                if (inCombat) {
+                    if (isHeroesTurn)
                     {
-                        if(hero != selectedHero)
+                        foreach (Hero hero in heros)
                         {
-                            HideObject(characterFrame);
-                            HideObject(encounterPanel);
-                            if (selectedHero != null)
+                            if (hero.transform.position.y - 1f == y && hero.transform.position.x == x)
                             {
-                                selectedHero.isSelected = false;
+                                if (hero != selectedHero)
+                                {
+                                    HideObject(characterFrame);
+                                    HideObject(encounterPanel);
+                                    if (selectedHero != null)
+                                    {
+                                        selectedHero.isSelected = false;
+                                    }
+                                    selectedHero = hero;
+                                    selectedHero.isSelected = true;
+                                    ShowObject(encounterPanel);
+                                    ShowObject(characterFrame);
+                                    SetCharacterName();
+                                    break;
+                                }
                             }
-                            selectedHero = hero;
-                            selectedHero.isSelected = true;
-                            ShowObject(encounterPanel);
-                            ShowObject(characterFrame);
-                            SetCurrentHP();
-                            SetCharacterName();
-                            break;
+                            else
+                            {
+                                HideObject(encounterPanel);
+                                HideObject(characterFrame);
+                                if (selectedHero != null)
+                                {
+                                    selectedHero.isSelected = false;
+                                }
+                                selectedHero = null;
+                            }
                         }
                     }
-                    else
+                    else if (isMonstersTurn)
                     {
-                        HideObject(encounterPanel);
-                        HideObject(characterFrame);
-                        if (selectedHero != null)
+                        foreach (Monster monster in monsters)
                         {
-                            selectedHero.isSelected = false;
+                            if (monster.transform.position.y - 1f == y && monster.transform.position.x == x)
+                            {
+                                if (monster != selectedMonster)
+                                {
+                                    HideObject(characterFrame);
+                                    HideObject(encounterPanel);
+                                    if (selectedMonster != null)
+                                    {
+                                        selectedMonster.isSelected = false;
+                                    }
+                                    selectedMonster = monster;
+                                    selectedMonster.isSelected = true;
+                                    ShowObject(encounterPanel);
+                                    ShowObject(characterFrame);
+                                    SetCharacterName();
+                                    break;
+                                }
+                            }
+                            else
+                            {
+                                HideObject(encounterPanel);
+                                HideObject(characterFrame);
+                                if (selectedMonster != null)
+                                {
+                                    selectedMonster.isSelected = false;
+                                }
+                                selectedMonster = null;
+                            }
                         }
-                        selectedHero = null;
                     }
                 }
+                else
+                {
+
+                }
+                
             }
             
         }
@@ -204,7 +274,6 @@ public class Mechanics : MonoBehaviour
                             selectedMonster.isSelected = true;
                             ShowObject(encounterPanel);
                             ShowObject(characterFrame);
-                            SetCurrentHP();
                             SetCharacterName();
                             break;
                         }
@@ -291,6 +360,7 @@ public class Mechanics : MonoBehaviour
     public void EndTurnButton()
     {
         HideObject(encounterPanel);
+        HideObject(characterFrame);
         if (isHeroesTurn)
         {
             if(selectedHero != null)
@@ -304,7 +374,7 @@ public class Mechanics : MonoBehaviour
             {
                 hero.Reset();
             }
-            
+            selectedHero = null;
         }
         else
         {
@@ -318,7 +388,7 @@ public class Mechanics : MonoBehaviour
             {
                 monster.Reset();
             }
-
+            selectedMonster = null;
         }
         
     }
@@ -368,7 +438,7 @@ public class Mechanics : MonoBehaviour
         
     }
 
-    public void MoveCamera()
+    public void MoveCameraCombat()
     {
         if((selectedHero==null ||!selectedHero.canMove) && (selectedMonster == null || !selectedMonster.canMove)){
             if(Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1){
@@ -394,15 +464,87 @@ public class Mechanics : MonoBehaviour
     }
     public void SetCurrentHP()
     {
+        Color red = Color.red;
+        Color green = Color.green;
+        Color yellow = Color.yellow;
+
         if(selectedHero != null)
         {
+            float avg = selectedHero.currentHp / selectedHero.maxHp;
+            currentHP.value = avg;
+            if(avg> 0.65f)
+            {
+                currentHPImage.color = green;
+            }
+            else if (avg <= 0.65f && avg > 0.3f)
+            {
+                currentHPImage.color = yellow;
+            }
+             else if (avg <= 0.3f)
+            {
+                currentHPImage.color = red;
+            }
 
-            currentHP.transform.localScale = new Vector3(currentHP.transform.localScale.x * (selectedHero.currentHp/selectedHero.maxHp), currentHP.transform.localScale.y, currentHP.transform.localScale.z);
         }
         if (selectedMonster != null)
         {
-            currentHP.transform.localScale = new Vector3(currentHP.transform.localScale.x * (selectedMonster.currentHp / selectedMonster.maxHp), currentHP.transform.localScale.y, currentHP.transform.localScale.z);
+            float avg = selectedMonster.currentHp / selectedMonster.maxHp;
+            currentHP.value = avg;
+            if (avg > 0.65f)
+            {
+                currentHPImage.color = green;
+            }
+            else if (avg <= 0.65f && avg > 0.3f)
+            {
+                currentHPImage.color = yellow;
+            }
+            else if (avg <= 0.3f)
+            {
+                currentHPImage.color = red;
+            }
 
         }
+    }
+
+    private void SetCombatBools()
+    {
+        if (inCombat)
+        {
+            List<Hero> deadHeroes = new List<Hero>();
+            List<Monster> deadMonsters = new List<Monster>();
+            foreach (Hero hero in heros)
+            {
+                if(hero.currentHp <= 0)
+                {
+                    deadHeroes.Add(hero);
+                }
+                hero.inCombat = true;
+            }
+            foreach (Monster monster in monsters)
+            {
+                if (monster.currentHp <= 0)
+                {
+                    deadMonsters.Add(monster);
+                }
+                monster.inCombat = true;
+            }
+            if(deadHeroes.Count == heros.Length || deadMonsters.Count == monsters.Length)
+            {
+                gameState.gameState = EGameState.OUT_OF_COMBAT;
+            }
+            
+        }
+        else
+        {
+            foreach (Hero hero in heros)
+            {
+                hero.inCombat = false;
+            }
+            foreach (Monster monster in monsters)
+            {
+                monster.inCombat = false;
+            }
+        }
+        
     }
 }
