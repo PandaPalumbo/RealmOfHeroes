@@ -10,7 +10,7 @@ public class Hero : MonoBehaviour
     public Ability[] abilities;
     public AbilityHandler abilityHandler;
     public int[] spellSlots;
-    private int maxHeroLevel = 20;
+    //private int maxHeroLevel = 20;
 
     // Start is called before the first frame update
     void Start()

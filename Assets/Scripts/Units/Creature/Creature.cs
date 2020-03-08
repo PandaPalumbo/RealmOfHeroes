@@ -26,8 +26,13 @@ public class Creature : MonoBehaviour
     public int wisdom;
     public int charisma;
     public float maxHp;
-    public float currentHp;
+    private float currentHp;
     public bool isSelected;
+    public int maxCarryWeight;
+    public int currCarryWeight;
+
+    public List<Item> inventory;
+    public List<Item> equippedItems;
 
     public SpriteRenderer spriteRenderer;
     public Material outlineMaterial;

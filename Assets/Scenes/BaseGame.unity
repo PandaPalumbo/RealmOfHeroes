@@ -317,8 +317,11 @@ MonoBehaviour:
   wisdom: 15
   charisma: 15
   maxHp: 100
-  currentHp: 100
   isSelected: 0
+  maxCarryWeight: 0
+  currCarryWeight: 0
+  inventory: []
+  equippedItems: []
   spriteRenderer: {fileID: 55638653}
   outlineMaterial: {fileID: 0}
   defaultMaterial: {fileID: 0}
@@ -1809,8 +1812,13 @@ MonoBehaviour:
   wisdom: 15
   charisma: 15
   maxHp: 30
-  currentHp: 30
   isSelected: 0
+  maxCarryWeight: 0
+  currCarryWeight: 0
+  inventory:
+  - {fileID: 0}
+  equippedItems:
+  - {fileID: 0}
   spriteRenderer: {fileID: 1180098561}
   outlineMaterial: {fileID: 0}
   defaultMaterial: {fileID: 0}
