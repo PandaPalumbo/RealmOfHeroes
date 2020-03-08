@@ -11,9 +11,13 @@ public class playerController: MonoBehaviour
     private Vector3 pos;
     private int OOCSpeed;
 
+    public Hero playerHero;
+    public Creature playerCreature;
     public Rigidbody2D rigidbody2D;
     public Animator animator;
     Vector2 movment;
+    public GameObject attackButton;
+    public List<Creature> targetCreatures;
     
     public void Start()
     {
@@ -47,5 +51,15 @@ public class playerController: MonoBehaviour
     private void OutOfCombatMovement()
     {
         rigidbody2D.MovePosition(rigidbody2D.position + movment * OOCSpeed * Time.fixedDeltaTime);
+    }
+
+    public void AttackButton(Ability ability)
+    {
+        
+        ability = playerHero.abilities[0];
+        playerHero.abilityHandler.ability.targetCreatures = targetCreatures;
+        playerHero.abilityHandler.ability = ability;
+        playerHero.abilityHandler.CastSpell(playerHero);
+        Debug.Log(targetCreatures[0]);
     }
 }

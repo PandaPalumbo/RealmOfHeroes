@@ -209,6 +209,194 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &55638648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 55638654}
+  - component: {fileID: 55638653}
+  - component: {fileID: 55638652}
+  - component: {fileID: 55638651}
+  - component: {fileID: 55638650}
+  - component: {fileID: 55638649}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!50 &55638649
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55638648}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!95 &55638650
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55638648}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18d12476ebeca2345a6cb5045cc35765, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &55638651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55638648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809947d8949cc14ea22fe77bd6d518c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroCreature: {fileID: 55638652}
+  heroClassName: 11
+  abilities: []
+  abilityHandler: {fileID: 0}
+  spellSlots: 
+--- !u!114 &55638652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55638648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ad057b4603e8b48a980f93df876eea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Spectator
+  title: 
+  description: 
+  creatureType: 3
+  humanoidRace: 7
+  resistances: 
+  vulnerabilities: 
+  immunities: 
+  level: 2
+  actionPoints: 2
+  gameSpeed: 30
+  strength: 15
+  dexterity: 15
+  constitution: 15
+  intelligence: 15
+  wisdom: 15
+  charisma: 15
+  maxHp: 100
+  currentHp: 100
+  isSelected: 0
+  spriteRenderer: {fileID: 55638653}
+  outlineMaterial: {fileID: 0}
+  defaultMaterial: {fileID: 0}
+  lookUp: {fileID: -2052431726481276142, guid: 6203805d5b92a8049b4622ed015cb6a9, type: 3}
+  lookDown: {fileID: 4197864560447741061, guid: 6203805d5b92a8049b4622ed015cb6a9,
+    type: 3}
+  lookRight: {fileID: -6251913712027637737, guid: 6203805d5b92a8049b4622ed015cb6a9,
+    type: 3}
+  lookLeft: {fileID: 4851254636803412192, guid: 6203805d5b92a8049b4622ed015cb6a9,
+    type: 3}
+  movementAreaTile: {fileID: 21300000, guid: 824d49f5c71ec3a4080dd0611fb1e152, type: 3}
+  spriteMap: {fileID: -2052431726481276142, guid: 6203805d5b92a8049b4622ed015cb6a9,
+    type: 3}
+--- !u!212 &55638653
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55638648}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1997881173809980358, guid: 417aa18c0ab0e6d498f5ba5b6cbe32a2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &55638654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55638648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16, y: 16.84, z: -206.82791}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &59452061
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,18 +630,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 181493903}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: CancelMoveButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &181493903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,33 +683,11 @@ MonoBehaviour:
   - eventID: 0
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
   - eventID: 1
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverNotOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
 --- !u!1 &246993376
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,37 +786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverNotOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  m_Delegates: []
 --- !u!114 &272512275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,18 +829,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 272512276}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: EndTurnButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &272512276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1088,37 +1202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverNotOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  m_Delegates: []
 --- !u!114 &797430897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1161,18 +1245,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 797430898}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: ConfirmMoveButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &797430898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1677,9 +1750,10 @@ GameObject:
   - component: {fileID: 1180098561}
   - component: {fileID: 1180098559}
   - component: {fileID: 1180098558}
-  - component: {fileID: 1180098562}
   - component: {fileID: 1180098563}
   - component: {fileID: 1180098564}
+  - component: {fileID: 1180098562}
+  - component: {fileID: 1180098565}
   m_Layer: 0
   m_Name: PlayerHero
   m_TagString: Untagged
@@ -1701,6 +1775,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heroCreature: {fileID: 1180098559}
   heroClassName: 11
+  abilities:
+  - {fileID: 11400000, guid: 3270e7aa97f3a8249a3597663291afd0, type: 2}
+  abilityHandler: {fileID: 1180098565}
+  spellSlots: 03000000
 --- !u!114 &1180098559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1713,22 +1791,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ad057b4603e8b48a980f93df876eea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Balrag
-  _title: Vagrant
-  _description: A "seemingly" harmless vagrant.
-  _creatureType: 0
-  _humanoidRace: 0
-  _level: 3
-  _actionPoints: 1
-  _gameSpeed: 30
-  _strength: 15
-  _dexterity: 15
-  _constitution: 15
-  _intelligence: 15
-  _wisdom: 15
-  _charisma: 15
-  _maxHp: 30
-  _currentHp: 30
+  name: Balrus
+  title: Vagrant
+  description: 
+  creatureType: 0
+  humanoidRace: 0
+  resistances: 
+  vulnerabilities: 
+  immunities: 
+  level: 1
+  actionPoints: 2
+  gameSpeed: 30
+  strength: 15
+  dexterity: 15
+  constitution: 15
+  intelligence: 15
+  wisdom: 15
+  charisma: 15
+  maxHp: 30
+  currentHp: 30
   isSelected: 0
   spriteRenderer: {fileID: 1180098561}
   outlineMaterial: {fileID: 0}
@@ -1823,8 +1904,13 @@ MonoBehaviour:
   id: 2
   canIMove: 0
   inCombat: 0
+  playerHero: {fileID: 1180098558}
+  playerCreature: {fileID: 1180098559}
   rigidbody2D: {fileID: 1180098564}
   animator: {fileID: 1180098563}
+  attackButton: {fileID: 0}
+  targetCreatures:
+  - {fileID: 55638652}
 --- !u!95 &1180098563
 Animator:
   serializedVersion: 3
@@ -1865,6 +1951,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1180098565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180098557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3930d8ece55e4284abac4b86ed341814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ability: {fileID: 11400000, guid: 3270e7aa97f3a8249a3597663291afd0, type: 2}
+  caster: {fileID: 1180098558}
+  targetCreatures: []
 --- !u!1 &1208581081
 GameObject:
   m_ObjectHideFlags: 0
@@ -20171,7 +20272,7 @@ MonoBehaviour:
   gameState: {fileID: 246993378}
   OutOfCombat: 1
   playerControllerId: 2
-  playerController: {fileID: 1180098562}
+  playerController: {fileID: 0}
 --- !u!4 &1299055549
 Transform:
   m_ObjectHideFlags: 0
@@ -20421,37 +20522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverNotOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  m_Delegates: []
 --- !u!1 &1504204284
 GameObject:
   m_ObjectHideFlags: 0
@@ -20933,7 +21004,7 @@ RectTransform:
   m_GameObject: {fileID: 1924747353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 130.11}
-  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 272512273}
   - {fileID: 1456619914}
@@ -21259,7 +21330,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2124433744}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1180098562}
+        m_MethodName: AttackButton
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 3270e7aa97f3a8249a3597663291afd0,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Ability, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2124433744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21308,34 +21391,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_MethodName: IsHoverNotOverButton
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  m_Delegates: []

@@ -2,44 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Creature : MonoBehaviour, ICreature, IDamagable, IKillable
+public class Creature : MonoBehaviour
 {
-    public string name { get; set; }
-    public string title { get; set; }
-    public string description { get; set; }
-    public ECreatureTypes creatureType { get; set; }
-    public EHumanoidRaces humanoidRace { get; set; }
-    public int level { get; set; }
-    public int actionPoints { get; set; }
-    public int gameSpeed { get; set; }
-    public int originalAP { get; set; }
-    public int strength { get; set; }
-    public int dexterity { get; set; }
-    public int constitution { get; set; }
-    public int intelligence { get; set; }
-    public int wisdom { get; set; }
-    public int charisma { get; set; }
-    public float maxHp { get; set; }
-    public float currentHp { get; set; }
+
 
     //attributes
-    public string _name;
-    public string _title;
-    public string _description;
-    public ECreatureTypes _creatureType;
-    public EHumanoidRaces _humanoidRace;
-    public int _level;
-    public int _actionPoints;
-    public int _gameSpeed;
-    private int _originalAP;
-    public int _strength;
-    public int _dexterity;
-    public int _constitution;
-    public int _intelligence;
-    public int _wisdom;
-    public int _charisma;
-    public float _maxHp;
-    public float _currentHp;
+    public string name;
+    public string title;
+    public string description;
+    public ECreatureTypes creatureType;
+    public EHumanoidRaces humanoidRace;
+    public List<EDamageType> resistances;
+    public List<EDamageType> vulnerabilities;
+    public List<EDamageType> immunities;
+    public int level;
+    public int actionPoints;
+    public int gameSpeed;
+    private int originalAP;
+    public int strength;
+    public int dexterity;
+    public int constitution;
+    public int intelligence;
+    public int wisdom;
+    public int charisma;
+    public float maxHp;
+    public float currentHp;
     public bool isSelected;
 
     public SpriteRenderer spriteRenderer;
@@ -56,29 +43,14 @@ public class Creature : MonoBehaviour, ICreature, IDamagable, IKillable
 
     public void Start()
     {
-        name = _name;
-        title = _title;
-        description = _description;
-        creatureType = _creatureType;
-        humanoidRace = _humanoidRace;
-        level = _level;
-        actionPoints = _actionPoints;       
-        _originalAP = actionPoints;
-        originalAP = _originalAP;
-        gameSpeed = _gameSpeed;
-        strength = _strength;
-        dexterity = _dexterity;
-        constitution = _constitution;
-        intelligence = _intelligence;
-        wisdom = _wisdom;
-        charisma = _charisma;
-        maxHp = _maxHp;
-        currentHp = _currentHp;
-
         if(creatureType != ECreatureTypes.HUMANOID)
         {
             humanoidRace = EHumanoidRaces.NONE;
         }
+    }
+    public void Update()
+    {
+        CapHealth();
     }
 
     public void Attack()
@@ -91,8 +63,115 @@ public class Creature : MonoBehaviour, ICreature, IDamagable, IKillable
         throw new System.NotImplementedException();
     }
 
-    public void TakeDamage<T>(T damageTaken)
+    public void TakeDamage(int damageDone, EDamageType damageType)
     {
-        throw new System.NotImplementedException();
+        if (immunities.Contains(damageType))
+        {
+            //do immune message!
+        } else if (resistances.Contains(damageType))
+        {
+            currentHp = currentHp - Mathf.FloorToInt((damageDone * 0.5f));
+            //do resistant message
+        } else if (vulnerabilities.Contains(damageType))
+        {
+            currentHp = currentHp - Mathf.FloorToInt((damageDone * 2));
+        }
+        else
+        {
+            currentHp = currentHp - damageDone;
+            Debug.Log(name + " has " + currentHp+ " HP left");
+
+        }
+    }
+    public void TakeHeal(int healAmount)
+    {
+        currentHp = currentHp + healAmount;
+    }
+
+    public void TakeBuff(int buffAmount, ECreatureAttributes creatureAttributes)
+    {
+        if(creatureAttributes == ECreatureAttributes.charisma)
+        {
+            charisma += buffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.constitution)
+        {
+            constitution += buffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.dexterity)
+        {
+            dexterity += dexterity;
+        }
+        if (creatureAttributes == ECreatureAttributes.gameSpeed)
+        {
+            gameSpeed += buffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.intelligence)
+        {
+            intelligence += buffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.maxHp)
+        {
+            maxHp += buffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.originalAP)
+        {
+            originalAP += buffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.strength)
+        {
+            strength += buffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.wisdom)
+        {
+            wisdom += buffAmount;
+        }
+    }
+    public void TakeDebuff(int debuffAmount, ECreatureAttributes creatureAttributes)
+    {
+        if (creatureAttributes == ECreatureAttributes.charisma)
+        {
+            charisma -= debuffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.constitution)
+        {
+            constitution -= debuffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.dexterity)
+        {
+            dexterity -= dexterity;
+        }
+        if (creatureAttributes == ECreatureAttributes.gameSpeed)
+        {
+            gameSpeed -= debuffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.intelligence)
+        {
+            intelligence -= debuffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.maxHp)
+        {
+            maxHp -= debuffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.originalAP)
+        {
+            originalAP -= debuffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.strength)
+        {
+            strength -= debuffAmount;
+        }
+        if (creatureAttributes == ECreatureAttributes.wisdom)
+        {
+            wisdom -= debuffAmount;
+        }
+    }
+
+    public void CapHealth()
+    {
+        if(currentHp > maxHp)
+        {
+            currentHp = maxHp;
+        }
     }
 }

@@ -10,9 +10,9 @@ public class BaseAbilityClass
     public EAbilityType abilityType;
     private EAbilityAction[] abilityActions;
     private Vector2[] areaOfEffect;
-    private List<AbilityBehaviors> abilityBehaviors;
     private Sprite icon;
     private GameObject particleEffect;
+    private string description;
 
     public Creature[] TargetCreatures {
         get { return targetCreatures; }
@@ -44,11 +44,7 @@ public class BaseAbilityClass
         set { areaOfEffect = value; }
     }
 
-    public List<AbilityBehaviors> AbilityBehaviors
-    {
-        get { return abilityBehaviors; }
-        set { abilityBehaviors = value; }
-    }
+
 
     public Sprite Icon
     {
@@ -60,5 +56,11 @@ public class BaseAbilityClass
     {
         get { return particleEffect; }
         set { particleEffect = value; }
+    }
+
+    public string Description
+    {
+        get { return description; }
+        set { description = value; }
     }
 }
