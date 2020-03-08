@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 
-public class Hero: MonoBehaviour
+public class Monster: MonoBehaviour
 {
 
     //attributes
@@ -11,7 +11,9 @@ public class Hero: MonoBehaviour
     public int gameSpeed;
     public int actionPoints;
     private int originalAP;
-
+    public float maxHp;
+    public float currentHp;
+    public bool inCombat;
 
     //movement
     public bool canMove;
@@ -37,6 +39,7 @@ public class Hero: MonoBehaviour
 
 
 
+
     public void Start()
     {
         //set objects and variables
@@ -49,31 +52,45 @@ public class Hero: MonoBehaviour
 
     private void Update()
     {
-        if (isSelected)
+        if (inCombat)
         {
-            PlayerRotation();
-            MoveToMouse();
+            if (isSelected)
+            {
+                PlayerRotation();
+                MoveToMouse();
+
+            }
+        }
+        else
+        {
+            if (isSelected)
+            {
+
+            }
         }
     }
 
     private void PlayerRotation()
-    { 
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-        {           
-            spriteRenderer.sprite = lookLeft;
-        }
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+    {
+        if (canMove)
         {
-            spriteRenderer.sprite = lookRight;
-            
-        }
-        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            spriteRenderer.sprite = lookDown;
-        }
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            spriteRenderer.sprite = lookUp;
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                spriteRenderer.sprite = lookLeft;
+            }
+            if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                spriteRenderer.sprite = lookRight;
+
+            }
+            if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                spriteRenderer.sprite = lookDown;
+            }
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                spriteRenderer.sprite = lookUp;
+            }
         }
     }
 
@@ -107,9 +124,6 @@ public class Hero: MonoBehaviour
         }        
     }
 
-    public void OnSelect() {
-        
-    }
 
     //enables movement and shows player possible tiles they can move to. 
     public void EnableMovement()
@@ -160,6 +174,6 @@ public class Hero: MonoBehaviour
     public void Reset()
     {
         moveSpeed = gameSpeed / 5;
-        actionPoints = originalAP;
+        actionPoints = originalAP ;
     }
 }
