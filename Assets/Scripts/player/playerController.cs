@@ -61,5 +61,6 @@ public class playerController: MonoBehaviour
         playerHero.abilityHandler.ability = ability;
         playerHero.abilityHandler.CastSpell(playerHero);
         Debug.Log(targetCreatures[0]);
+        //test
     }  
 }
