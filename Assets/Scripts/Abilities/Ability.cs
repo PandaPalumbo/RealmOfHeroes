@@ -21,5 +21,6 @@ public class Ability : ScriptableObject
     public List<ECreatureAttributes> creatureAttributes;
     public EDamageType damageType;
     public int spellLvl;
+    public Item item;
 
 }

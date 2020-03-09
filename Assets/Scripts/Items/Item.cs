@@ -14,7 +14,7 @@ public class Item : ScriptableObject
     public int naturalDamage;
     public bool isCraftable;
     public List<Item> components;
-    public Ability abiliity;
+    public List<Ability> abiliities;
     public List<int> attrIncreases;
     public List<int> attrDecreases;
     public List<ECreatureAttributes> eAttrIncreases;
@@ -22,5 +22,6 @@ public class Item : ScriptableObject
     public List<EDamageType> vulnerabilities;
     public List<EDamageType> immunities;
     public List<EDamageType> resistances;
+    public EDamageType additionalDamageType;
     public EItemRarity itemRarity;
 }

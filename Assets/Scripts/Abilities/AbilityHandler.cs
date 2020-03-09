@@ -22,6 +22,7 @@ public class AbilityHandler : MonoBehaviour
     private int debuff;
     private List<ECreatureAttributes> creatureAttributes;
     private EDamageType damageType;
+    public Item item;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +50,53 @@ public class AbilityHandler : MonoBehaviour
         {
             CastSpell(caster);
         }
+        if (abilityType == EAbilityType.Equipment)
+        {
+            UseEquipmentAbility(user);
+        }
+    }
+
+    public void UseEquipmentAbility(Creature user)
+    {
+        if (abilityActions.Contains(EAbilityAction.Attack))
+        {
+            foreach (Creature creature in targetCreatures)
+            {
+                if(item != null)
+                {
+             
+                }
+             
+            }
+        }
+        if (abilityActions.Contains(EAbilityAction.Heal))
+        {
+            foreach (Creature creature in targetCreatures)
+            {
+                creature.TakeHeal(heal);
+            }
+        }
+        if (abilityActions.Contains(EAbilityAction.Buff))
+        {
+            foreach (Creature creature in targetCreatures)
+            {
+                foreach (ECreatureAttributes attribute in creatureAttributes)
+                {
+                    creature.TakeBuff(buff, attribute);
+                }
+            }
+        }
+        if (abilityActions.Contains(EAbilityAction.Debuff))
+        {
+            foreach (Creature creature in targetCreatures)
+            {
+                foreach (ECreatureAttributes attribute in creatureAttributes)
+                {
+                    creature.TakeDebuff(debuff, attribute);
+                }
+            }
+        }
+        
     }
 
     //TODO add variable targeting (can hit enemies? can hit friendlies? can hit all?)
