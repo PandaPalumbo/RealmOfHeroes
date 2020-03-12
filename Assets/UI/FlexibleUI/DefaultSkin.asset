@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ed0117be8dc4f4c8e135eef1eaf8ee, type: 3}
+  m_Name: DefaultSkin
+  m_EditorClassIdentifier: 
+  buttonSprite: {fileID: -4021261642883145848, guid: 6203805d5b92a8049b4622ed015cb6a9,
+    type: 3}
+  buttonSpriteState:
+    m_HighlightedSprite: {fileID: 4851254636803412192, guid: 6203805d5b92a8049b4622ed015cb6a9,
+      type: 3}
+    m_PressedSprite: {fileID: 6940801900377978970, guid: 6203805d5b92a8049b4622ed015cb6a9,
+      type: 3}
+    m_SelectedSprite: {fileID: 6940801900377978970, guid: 6203805d5b92a8049b4622ed015cb6a9,
+      type: 3}
+    m_DisabledSprite: {fileID: 0}

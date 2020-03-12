@@ -11,16 +11,16 @@ public class CombatMechanics : MonoBehaviour
     ////combat
     //public bool inCombat;
     //public int numberOfHeros;
-    //public BaseGrid baseGrid;
-    //public Grid grid;
-    //public Sprite mouseOverTile;
+    public BaseGrid baseGrid;
+    public Grid grid;
+    public Sprite mouseOverTile;
     //private Hero[] heros;
     //private Monster[] monsters;
     //private Hero selectedHero;
     //private Monster selectedMonster;
-    //private Vector3 mousePos;
-    //private bool mouseTileExists;
-    //private SpriteRenderer mouseOverSR;
+    private Vector3 mousePos;
+    private bool mouseTileExists;
+    private SpriteRenderer mouseOverSR;
     //public bool isHeroesTurn;
     //public bool isMonstersTurn;
 
@@ -40,39 +40,37 @@ public class CombatMechanics : MonoBehaviour
     //public Camera camera;
 
     //// Start is called before the first frame update
-    //void Start()
-    //{
-    //    isHeroesTurn = true;
-    //    isMonstersTurn = false;
-    //    baseGrid = FindObjectOfType<BaseGrid>();
-    //    heros = FindObjectsOfType<Hero>();
-    //    monsters = FindObjectsOfType<Monster>();
-    //    numberOfHeros = heros.Length;
-    //    mouseTileExists = false;
-    //    isEncounterPanelOpen = false;
-    //    Debug.Log("how many heroes: " + heros.Length);
-    //}
+    void Start()
+    {
+        //isHeroesTurn = true;
+        //isMonstersTurn = false;
+        baseGrid = FindObjectOfType<BaseGrid>();
+        //heros = FindObjectsOfType<Hero>();
+        //monsters = FindObjectsOfType<Monster>();
+        //numberOfHeros = heros.Length;
+        mouseTileExists = false;
+        //isEncounterPanelOpen = false;
+        //Debug.Log("how many heroes: " + heros.Length);
+    }
 
-    //// Update is called once per frame
-    //void Update()
-    //{
-    //    GetGameState();
-    //    if (inCombat)
-    //    {
-    //        ShowObject(alertText);
-    //        setAlertText();
-    //        MoveCameraCombat();
-    //        if (selectedHero != null || selectedMonster != null)
-    //        {
-    //            SetCurrentHP();
-    //        }
-    //        mousePos = UtilsClass.GetMouseWorldPosition();
-    //        MouseOverTile(mousePos);
-    //        HandleMovement();
-    //    }
-
-
-    //}
+    // Update is called once per frame
+    void Update()
+    {
+        //GetGameState();
+        //if (inCombat)
+        //{
+            //ShowObject(alertText);
+            //setAlertText();
+            //MoveCameraCombat();
+            //if (selectedHero != null || selectedMonster != null)
+            //{
+            //    SetCurrentHP();
+            //}
+            mousePos = UtilsClass.GetMouseWorldPosition();
+            MouseOverTile(mousePos);
+        //    HandleMovement();
+        //}
+    }
 
     //private void GetGameState()
     //{
@@ -99,68 +97,70 @@ public class CombatMechanics : MonoBehaviour
     //}
 
     ////creates the hover over sprite on the grid that folows mouse
-    //private void MouseOverTile(Vector3 mousePosFn)
-    //{
-    //    int x, y;
-    //    GetXY(mousePosFn, out x, out y);
-    //    Vector3 tilePos = new Vector3(x, y + 0.5f, 0);
-    //    if (mouseTileExists)
-    //    {
-    //        var tempTile = GameObject.Find("MouseOverTile");
-    //        if(tempTile.transform.position != tilePos)
-    //        {
-    //            DestroyObject(tempTile);
-    //            UtilsClass.CreateWorldSprite(
-    //                "MouseOverTile",
-    //                mouseOverTile, //sprite
-    //                tilePos, // pos
-    //                new Vector3(.9f, .9f, 1), // scale
-    //                1, //order
-    //                new Color(0, 0, 0, 0.5f) // color
-    //            );
-    //            mouseTileExists = true;
-    //        } else
-    //        {
-    //            if (Input.GetMouseButton(0))
-    //            {
-    //                SpriteRenderer tempSR = tempTile.GetComponent<SpriteRenderer>();
-    //                tempSR.color = new Color(1, 1, 1, 0.5f);
-    //            } else
-    //            {
-    //                SpriteRenderer tempSR = tempTile.GetComponent<SpriteRenderer>();
-    //                tempSR.color = new Color(0, 0, 0, 0.5f);
-    //            }
-    //        }
-    //    }    
-    //    else
-    //    {
+    private void MouseOverTile(Vector3 mousePosFn)
+    {
+        int x, y;
+        GetXY(mousePosFn, out x, out y);
+        Vector3 tilePos = new Vector3(x, y + 0.5f, 0);
+        if (mouseTileExists)
+        {
+            var tempTile = GameObject.Find("MouseOverTile");
+            if (tempTile.transform.position != tilePos)
+            {
+                DestroyObject(tempTile);
+                UtilsClass.CreateWorldSprite(
+                    "MouseOverTile",
+                    mouseOverTile, //sprite
+                    tilePos, // pos
+                    new Vector3(.9f, .9f, 1), // scale
+                    1, //order
+                    new Color(0, 0, 0, 0.5f) // color
+                );
+                mouseTileExists = true;
+            }
+            else
+            {
+                if (Input.GetMouseButton(0))
+                {
+                    SpriteRenderer tempSR = tempTile.GetComponent<SpriteRenderer>();
+                    tempSR.color = new Color(1, 1, 1, 0.5f);
+                }
+                else
+                {
+                    SpriteRenderer tempSR = tempTile.GetComponent<SpriteRenderer>();
+                    tempSR.color = new Color(0, 0, 0, 0.5f);
+                }
+            }
+        }
+        else
+        {
 
-    //        UtilsClass.CreateWorldSprite(
-    //                "MouseOverTile",
-    //                mouseOverTile, //sprite
-    //                tilePos, // pos
-    //                new Vector3(.9f, .9f, 1), // scale
-    //                1, //order
-    //                new Color(0, 0, 0, 0.5f) // color
-    //            );
-    //        mouseTileExists = true;
-    //    }   
-    //}
+            UtilsClass.CreateWorldSprite(
+                    "MouseOverTile",
+                    mouseOverTile, //sprite
+                    tilePos, // pos
+                    new Vector3(.9f, .9f, 1), // scale
+                    1, //order
+                    new Color(0, 0, 0, 0.5f) // color
+                );
+            mouseTileExists = true;
+        }
+    }
 
     //// gets the baseGrid coordinates based off of mouse pos
-    //public void GetXY(Vector3 mousePos, out int x, out int y)
-    //{
-    //    x = Mathf.FloorToInt((mousePos - baseGrid.origin).x );
-    //    y = Mathf.FloorToInt((mousePos - baseGrid.origin).y );
-    //}
+    public void GetXY(Vector3 mousePos, out int x, out int y)
+    {
+        x = Mathf.FloorToInt((mousePos - baseGrid.origin).x);
+        y = Mathf.FloorToInt((mousePos - baseGrid.origin).y);
+    }
 
     //// allows hero to be selected
     //public void SelectPlayer()
     //{
-        
+
     //    if (Input.GetMouseButtonDown(0))
     //    {
-            
+
     //        int x, y;
     //        GetXY(mousePos, out x, out y);
     //        //Debug.Log("X clicked: " + x + "Y clicked:" + y);
@@ -240,9 +240,9 @@ public class CombatMechanics : MonoBehaviour
     //            {
 
     //            }
-                
+
     //        }
-            
+
     //    }
     //}
 
@@ -331,16 +331,16 @@ public class CombatMechanics : MonoBehaviour
     //    } else if (isMonstersTurn) {
     //        selectedMonster.EnableMovement();
     //    }
-        
+
 
     //    HideObject(encounterPanel);
     //    ShowObject(inMovementButtons);
 
     //    HideObject(endTurn);
-        
+
     //    isHoverOverButton = false;
     //}
-    
+
     //public void ConfirmMoveButton()
     //{
     //    if (isHeroesTurn)
@@ -351,7 +351,7 @@ public class CombatMechanics : MonoBehaviour
     //    {
     //        selectedMonster.DisableMovement();
     //    }
-        
+
     //    ShowObject(encounterPanel);
     //    ShowObject(endTurn);
     //    HideObject(inMovementButtons);
@@ -367,7 +367,7 @@ public class CombatMechanics : MonoBehaviour
     //        {
     //            selectedHero.isSelected = false;
     //        }
-            
+
     //        isHeroesTurn = false;
     //        isMonstersTurn = true;
     //        foreach(Hero hero in heros)
@@ -390,7 +390,7 @@ public class CombatMechanics : MonoBehaviour
     //        }
     //        selectedMonster = null;
     //    }
-        
+
     //}
 
     //public void isPlayerRoundOver()
@@ -435,7 +435,7 @@ public class CombatMechanics : MonoBehaviour
     //    {
     //        alertText.GetComponent<UnityEngine.UI.Text>().text = "Monsters Turn!";
     //    }
-        
+
     //}
 
     //public void MoveCameraCombat()
@@ -532,7 +532,7 @@ public class CombatMechanics : MonoBehaviour
     //        {
     //            gameState.gameState = EGameState.OUT_OF_COMBAT;
     //        }
-            
+
     //    }
     //    else
     //    {
@@ -545,6 +545,6 @@ public class CombatMechanics : MonoBehaviour
     //            monster.inCombat = false;
     //        }
     //    }
-        
+
     //}
 }
